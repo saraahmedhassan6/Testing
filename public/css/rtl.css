@@ -1,0 +1,16 @@
+body {
+    /* Existing LTR styles */
+    direction: ltr;
+    text-align: left;
+}
+
+[dir="rtl"] body {
+    /* Flip for RTL */
+    direction: rtl;
+    text-align: right;
+}
+
+[dir="rtl"] .navbar-nav {
+    /* Example of flipping navigation */
+    float: right;
+}
